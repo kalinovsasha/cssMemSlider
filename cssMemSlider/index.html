@@ -8,47 +8,61 @@
     <title>CSS Slider</title>
 </head>
 <body>
-    <div class="main">
+    
         <div class="slider">
+            <input class="slider_controls_form_radio" type="radio" name="slide" id="a1" checked>
+            <input class="slider_controls_form_radio" type="radio" name="slide" id="a2">
+            <input class="slider_controls_form_radio" type="radio" name="slide" id="a3">
+            <input class="slider_controls_form_radio" type="radio" name="slide" id="a4">
             <!----Container------------->
             <div class="slider_container">
-                <input class="slider_controls_form_radio" type="radio" name="slide" id="a1" checked>
+                
                 <div class="slider_container_cards1">
                     <div class=" slider_container_card1">x1xx</div>
                     <div class=" slider_container_text1">Я вам сейчас покажу</div>
                 </div>
-                <input class="slider_controls_form_radio" type="radio" name="slide" id="a2">
                 <div class="slider_container_cards2">
                     <div class=" slider_container_card2">xx2x</div>
                     <div class=" slider_container_text2">222</div>
                 </div>
-                <input class="slider_controls_form_radio" type="radio" name="slide" id="a3">
+                
                 <div class="slider_container_cards3">
                     <div class=" slider_container_card3">xx3x</div>
                     <div class=" slider_container_text3">333</div>
                 </div>
-                <input class="slider_controls_form_radio" type="radio" name="slide" id="a4">
+                
                 <div class="slider_container_cards4">
                     <div class=" slider_container_card4">x4xx</div>
                     <div class=" slider_container_text4">444</div>
                 </div>
+           
             </div>
-                    
-                    
-                    
-                    
-
-            <!----Controls------------->
-            <ul class="slider_controls">
-                <li><label class="slider_controls_label" for="a1"><div class="slider_controls_form_button_wrapper"></div></label></li>
-                <li><label class="slider_controls_label" for="a2"><div class="slider_controls_form_button_wrapper"></div></label></li>
-                <li><label class="slider_controls_label" for="a3"><div class="slider_controls_form_button_wrapper"></div></label></li>
-                <li><label class="slider_controls_label" for="a4"><div class="slider_controls_form_button_wrapper"></div></label></li>
-            </ul>           
-
+                       <!----Controls------------->
+                       <ul class="slider_controls">
+                        <li>
+                            <label class="slider_controls_label" for="a1" >
+                                <div class="circle circle1"></div>
+                            </label>                
+                        </li>
+                        <li>
+                            
+                            <label class="slider_controls_label" for="a2">
+                                <div class="circle circle2"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="slider_controls_label" for="a3">
+                                <div class="circle circle3"></div>
+                            </label></li>
+                        <li>
+                            <label class="slider_controls_label" for="a4">
+                                <div class="circle circle4"></div>
+                            </label></li>
+                    </ul>         
+                      
 
         </div>
-    </div>
+    
 </body>
 <script>
     
