@@ -1,0 +1,2 @@
+Изначально разработка велась  [тут](https://github.com/kalinovsasha/cssMemSlider2/tree/gh-pages), но неправильно оформил коммиты. [deploy](https://kalinovsasha.github.io/cssMemSlider2/cssMemSlider/)  
+Deploy текущей версии [тут]()
